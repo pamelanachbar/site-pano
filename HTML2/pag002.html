@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrossel Contínuo</title>
+  <style>
+    /* Estilos gerais do carrossel */
+    .carrossel {
+      width: 80%; /* Tamanho do carrossel */
+      margin: auto;
+      overflow: hidden; /* Esconde a parte das imagens que saem do container */
+      position: relative;
+    }
+
+    .imagens {
+      display: flex;
+      animation: mover 20s linear infinite; /* Animação contínua */
+    }
+
+    .imagem {
+      width: 33.33%; /* Exibe 3 imagens por vez */
+      flex-shrink: 0; /* Impede que as imagens encolham */
+    }
+
+    /* Animação para mover as imagens */
+    @keyframes mover {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%); /* Move todas as imagens */
+      }
+    }
+
+    /* Para tornar o carrossel responsivo */
+    @media (max-width: 768px) {
+      .imagem {
+        width: 50%; /* Exibe 2 imagens por vez em telas pequenas */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .imagem {
+        width: 100%; /* Exibe 1 imagem por vez em telas muito pequenas */
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+
+</body>
+</html>

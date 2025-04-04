@@ -1,0 +1,535 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Emblema+One&family=Pacifico&family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Emblema+One&family=Pacifico&family=Shadows+Into+Light&family=Solway:wght@300;400;500;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cedarville+Cursive&family=Cinzel:wght@400..900&family=Emblema+One&family=Pacifico&family=Shadows+Into+Light&family=Solway:wght@300;400;500;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cedarville+Cursive&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Emblema+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&family=Solway:wght@300;400;500;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cedarville+Cursive&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Emblema+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&family=Solway:wght@300;400;500;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+::-webkit-scrollbar {
+    display: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+#imagem-mapa{
+    position: relative;
+    /* background-image: url('https://www.forumcampinas.org.br/interdependencia/wp-content/uploads/2023/10/UNICAMP-imagem_aerea-unicamp_divulgacao-1.jpg'); */
+    /* background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh; */
+
+}
+
+video{
+    width: 100vw;
+}
+
+
+#primeiro-link{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#primeiro-link:hover{
+    background-color: white;
+    color: black;
+}
+#imagem-logo{
+    /*position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(221, 221, 221, 0);*/
+
+    
+}  
+#secao-pesquisar{
+    background-color: white;
+    text-align: center;
+
+}
+#primeiro-titulo{
+    font-family: "EB Garamond", serif;
+    color: black;
+   
+}
+#descricao1, #descricao2{
+    color: black;
+    font-family: "EB Garamond", serif;
+}
+#ipesquisa{
+    border-radius: 50px;
+}
+
+#ipesquisa:focus{
+    color: black;
+    border: 2px solid white;
+}
+
+#link-iniciar{
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(110, 22, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    /*border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;*/
+    border-radius: 50px;
+}
+
+#link-iniciar:hover{
+    background-color: white;
+    border: 3px solid rgb(110, 22, 0);
+    color: rgb(110, 22, 0);
+    font-weight: 500;
+}
+#secao-conhecer{
+    background-color: rgba(75, 0, 0, 0.975);
+    color: white;
+}
+#imagem-logo2{
+    display: block;
+    margin: auto;
+}
+
+#descricao3{
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+#descricao4{
+    text-align: center;
+}
+.sigla{
+    font-family: "Cedarville Cursive", cursive;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+}
+
+.sigla:hover{
+    background-color: rgb(175, 161, 161);
+}
+
+#explicacao-pano > p{
+    text-align: center;
+    color: black;
+    font-family: "Barlow Condensed", sans-serif;
+    margin: auto;
+}
+footer{
+    text-align: justify;
+    background-color: rgb(0, 27, 42);
+    color: white;
+}
+
+footer > a{
+    font-family: 'Ubuntu';
+    text-decoration: none;
+    color: white;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+}
+
+footer > p{
+    font-family: 'Ubuntu';
+}
+
+
+/*Carrossel*/
+.carrossel {
+    width: 80%; /* Tamanho do carrossel */
+    margin: auto;
+    overflow: hidden; /* Esconde a parte das imagens que saem do container */
+    position: relative;
+  }
+
+  .imagens {
+    display: flex;
+    animation: mover 20s linear infinite; /* Animação contínua */
+    height: 480px;
+  }
+
+  .imagem {
+    width: 29.33%; /* Exibe 3 imagens por vez */
+    flex-shrink: 0; /* Impede que as imagens encolham */
+    border-radius: 20px;
+    margin: 20px;
+  }
+
+  /* Animação para mover as imagens */
+  @keyframes mover {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Move todas as imagens */
+    }
+  }
+
+  /* Para tornar o carrossel responsivo */
+  @media (max-width: 768px) {
+    .imagem {
+      width: 50%; /* Exibe 2 imagens por vez em telas pequenas */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .imagem {
+      width: 100%; /* Exibe 1 imagem por vez em telas muito pequenas */
+    }
+  }
+@media screen and (min-width: 300px) and (max-width: 998px){
+    video{
+        
+    }
+    #temporal{
+        text-align: center; 
+        position: absolute;
+         left: 50%; top: 25%; 
+         transform: translate(-50%, -50%);
+        font-family: "EB Garamond", serif;
+        font-size: 10em;
+    }
+
+    #primeiro-titulo{
+        font-size: 45px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    #secao-pesquisar{
+        height: 65vh;
+    }
+
+    #secao-conhecer{
+        height: 130vh;
+        margin-bottom: 50px;
+    }
+    #pano{
+        font-size: 5em;
+    }
+    #descricao1{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    #ipesquisa{
+        width: 70vw;
+        padding: 10px;
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    #descricao2{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    #explicacao{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        width: 40vw;
+        background-color: rgb(252, 247, 222);
+        color: rgb(0, 0, 0);
+        padding: 60px;
+        border-radius: 100%;
+        font-weight: 200;
+        font-size: 1em;
+        z-index: 1;
+        border: 1.5px solid black;
+
+
+    }
+    #link-iniciar{
+        font-size: 20px;
+        padding: 20px;
+        width: 200px;
+        margin: auto;
+        margin-top: 0px;
+    }
+   
+    #imagem-logo2{
+       width: 50vw;
+       padding: 10px;
+    }
+
+    #imgFecitec{
+        position: relative;
+    }
+
+    #descricao3{
+        font-family: "EB Garamond", serif;
+        font-size: 1.5em;
+        font-weight: 200;
+        padding: 10px;
+    }
+
+    #descricao4{    
+        font-family: "EB Garamond", serif;
+        font-weight: 200;
+        font-size: 1.3em;
+        padding: 10px;
+    }
+
+    #imgCampus2{
+        display: inline-block;
+        width: 96vw;
+        height: 45vh;
+        border-radius: 30px;
+        margin: 10px;
+        border: 1px solid black;
+    }
+
+    #imgCampus3{
+        display: inline-block;
+        text-align: right;
+        border-radius: 30px;
+        width: 96vw;
+        height: 47vh;
+        margin: 10px;
+        border: 1px solid black;
+    
+    }
+
+    #titulo{
+        font-size: 2em;
+        font-weight: 400;
+        display: block;
+        margin: auto;
+        
+    }
+    #explicacao2{
+        font-weight: 100;
+        font-size: 1.4em;
+        width: 60vw;
+        padding: 20px;
+
+    }
+    .sigla{
+        font-size: 40px;
+        height: 40vh;
+        padding: 20px;
+        font-weight: 600;
+    }
+
+    footer{
+        height: 30vh;
+        padding: 30px;
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (min-width: 736px) and (max-width: 997px) {
+    #temporal{
+        text-align: center; 
+        position: absolute;
+         left: 50%; top: 35%; 
+         transform: translate(-50%, -50%);
+        font-family: "EB Garamond", serif;
+        font-size: 15em;
+    }
+    
+}
+@media screen and (min-width: 998px) {
+
+    #temporal{
+        text-align: center; 
+        position: absolute;
+         left: 50%; top: 50%; 
+         transform: translate(-50%, -50%);
+        font-family: "EB Garamond", serif;
+        font-size: 20em;
+    }
+    #primeiro-titulo{
+        font-size: 5em;
+        padding: 50px;
+        padding-bottom: 30px;
+    }
+
+    #descricao1{
+        padding: 20px;
+        font-size: 2em;
+        
+    }
+    #ipesquisa{
+        width: 800px;
+        padding: 7px;
+        font-size: 30px;
+    }
+
+    #secao-conhecer{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 101.5vh;
+    }
+
+    #pano{
+        font-size: 7em;
+    }
+
+    #divEspaco{
+        height: 200px;
+        background-color: white;
+    }
+    #descricao2{
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+    #explicacao{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        width: 40vw;
+        background-color: rgb(252, 247, 222);
+        color: rgb(0, 0, 0);
+        padding: 50px;
+        border-radius: 20px;
+        font-weight: 200;
+        font-size: 1.2em;
+        z-index: 1;
+
+
+    }
+    #link-iniciar{
+        font-size: 20px;
+        padding: 20px;
+        width: 300px;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    #imagem-logo2{
+        margin-top: 60px;
+    }
+
+    #descricao3{
+        font-family: "EB Garamond", serif;
+        font-size: 3em;
+        font-weight: 200;
+    }
+
+    #descricao4{
+        font-family: "EB Garamond", serif;
+        font-size: 2em;
+        padding-bottom: 20px;
+    }
+
+    #imgFecitec{
+        position: relative;
+        height: 60vh;
+
+    }
+
+    #divImgPost{
+       display: inline-block;
+    }
+    #imgCampus2{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); 
+        left: 0;
+        display: inline-block;
+        width: 39vw;
+        height: 60vh;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    
+    /*#texto1{
+        display: inline-block;
+        font-family: 'Ubuntu';
+        font-size: 2em;
+        color: rgb(255, 251, 251);
+
+    }*/
+    #entreImagens{
+        display: inline-block;
+        width: 20vw;
+    }
+
+    #divImgCampus3{
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); 
+        right: 0;
+        text-align: right;
+        margin: 0px;
+    
+    }
+    #imgCampus3{
+        display: inline-block;
+        text-align: right;
+        width: 39vw;
+        height: 60vh;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    
+    }
+    .sigla{
+        font-size: 3.5em;
+        height: 50vh;
+        padding: 20px;
+        font-weight: 700;
+    }
+
+    #titulo{
+        font-size: 4em;
+        font-weight: 400;
+        display: block;
+        margin: auto;
+    }
+    #explicacao2{
+        font-weight: 100;
+        font-size: 2.3em;
+        width: 60vw;
+        padding: 20px;
+
+    }
+    footer{
+        height: 50vh;
+        padding: 30px;
+        font-size: 20px;
+    }
+}
